@@ -1,8 +1,21 @@
-<h2>My ToDos</h2>
 
+
+<!--
 <ul class="todos">
     <li *ngFor="let todo of todos">
         <span class="badge">{{todo.title}}</span> - {{todo.desc}}
     </li>
 
 </ul>
+-->
+
+<mat-list>
+    <h2>My ToDos</h2>
+    <mat-list-item *ngFor="let todo of todos">
+        <h4 mat-line>{{todo.title}}</h4>
+        <p mat-line>{{todo.desc}}</p>
+        <mat-divider></mat-divider>
+    </mat-list-item>
+   
+</mat-list>
+

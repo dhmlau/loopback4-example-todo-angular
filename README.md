@@ -1,6 +1,8 @@
 # Loopback4ExampleTodoAngular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5.
+This example shows how to take the OpenAPI spec from a LoopBack 4 application and use [`ng-openapi-gen`](https://www.npmjs.com/package/ng-openapi-gen) to generate the models and web client in an existing Angular application.
+
+This project is generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5.
 
 ## Tutorials 
 - [Building a Frontend Application with LoopBack4 and Angular](https://medium.com/@MobileDiana/building-a-frontend-application-with-loopback4-and-angular-e15c6fb48971)
